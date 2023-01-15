@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(240, 203, 39);
+}
+section {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    justify-content: space-between;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+
+
+}
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content .textbox {
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+.content .textbox h3 {
+    color: #333;
+    font-size: 2em;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+
+.content .textbox h2 span {
+    color: #c9220c;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textbox p {
+    color: #333;
+
+}
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #c9220c;
+    color: #fff;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgBox img {
+    max-width: 500px;
+}
+.players {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.players li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.players li:hover {
+    transform: translateY(-15px);
+}
+.players li img {
+    max-width: 60px;
+
+}
+.social {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social li {
+    list-style: none;
+
+}
+.social li a {
+    display: inline-block;
+    margin: 5%;
+    transform: scale(0.6);
+}
+.semi {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 99%;
+    height: 90%;
+    background: #ca0e0e;
+    clip-path: circle(600px at right 900px );
+}
+/*referance=https://www.w3schools.com/cssref//css3_pr_clip-path.php*/
+/*referance=https://www.w3schools.com/CSSref/sel_hover.php*/
